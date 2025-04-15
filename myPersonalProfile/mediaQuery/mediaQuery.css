@@ -1,0 +1,92 @@
+/* media query for phones/mobiles */
+@media (max-width: 575px) {
+    body {
+      overflow:scroll;
+      overscroll-behavior: none;
+      font-size: 4vw;
+    }
+    .container {
+      flex-direction: column;
+      height: auto;
+      padding: 4vw;
+    }
+  
+    .left-container {
+      position: static;
+      width: 100%;
+      align-items: center;
+      margin: 0;
+    }
+  
+    .profile-pic {
+      width: 25vw;
+      height: 28vw;
+      margin: 2vw 0;
+    }
+
+    .profile-pic:hover {
+        box-shadow: 0 0 10px #ffffff70; 
+    }
+  
+    h3 {
+      margin: 2vw 0;
+      text-align: center;
+      font-size: 3.8vw;
+    }
+  
+    h3::after {
+      display: none;
+    }
+  
+    a {
+      width: 30vw;
+      margin: 1.5vw auto;
+      padding-left: 1vw;
+      padding-right: 1vw;
+      font-size: 3vw;
+    }
+  
+    .right-container {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 4vw;
+      height: auto;
+      padding: 0;
+      text-align: center;
+      overflow: visible;
+    }
+  
+    h1 {
+      font-size: 4.5vw;
+      margin-top: 3.5vw;
+    }
+  
+    h2 {
+      font-size: 4vw;
+      margin-top: 5vw;
+      font-weight: 400;
+    }
+  
+    p, li {
+      font-size: 3.2vw;
+      padding: 2vw;
+    }
+  
+    .bio {
+      padding: 0 4vw;
+    }
+  
+    ul.hobbies {
+      list-style-position: inside;
+      padding-left: 0;
+    }
+  
+    .fa-heart {
+      margin: 0 0.5vw;
+    }
+
+    .last-tag{
+        opacity: 0.6;
+    }
+  }
+  
